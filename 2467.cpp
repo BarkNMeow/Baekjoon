@@ -16,20 +16,19 @@ int main() {
     int min_diff = 0x7FFFFFFF;
     int liq_a = -1, liq_b = -1;
 
-    for (int start = 0; start < n - 1; start++) {
-        int end = start + 1, diff = 0x7FFFFFFF, prev_diff = 0;
-        do {
-            prev_diff = diff;
+    int s = 0, e = n - 1;
 
-            diff = abs(arr[start] + arr[end]);
-            if (diff < min_diff) {
-                liq_a = arr[start];
-                liq_b = arr[end];
-                min_diff = diff;
-            }
+    while (s < e) {
+        int diff = arr[s] + arr[e];
+        if (abs(diff) < min_diff) {
+            min_diff = abs(diff);
+            liq_a = arr[s], liq_b = arr[e];
+        }
 
-            end++;
-        } while (diff < prev_diff && end < n);
+        if (diff > 0)
+            e--;
+        else
+            s++;
     }
 
     cout << liq_a << ' ' << liq_b;
