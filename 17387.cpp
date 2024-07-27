@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// https://www.sciencedirect.com/science/article/pii/B9780080507552500452#formula3
 // Dummy variable to prevent misinterpretation
 bool __dummy__ = ios::sync_with_stdio(false);
 auto __dummy2__ = cin.tie(NULL);
