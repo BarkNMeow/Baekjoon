@@ -42,6 +42,6 @@
         "streambuf": "cpp",
         "typeinfo": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.errorSquiggles": "disabled",
     "C_Cpp.default.compilerPath": "C:\\mingw64\\bin\\g++.exe"
 }
