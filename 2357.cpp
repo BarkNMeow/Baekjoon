@@ -37,7 +37,7 @@ Node find_min_max(int idx, int s, int e, int l_range, int r_range) {
 
 int main() {
     cin >> N >> M;
-    int T = 1, h = 1;
+    int T = 1;
     while (T < N) {
         T <<= 1;
     }
