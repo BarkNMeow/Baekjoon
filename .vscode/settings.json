@@ -42,7 +42,16 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "queue": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "bit": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "ctime": "cpp",
+        "iterator": "cpp",
+        "numeric": "cpp",
+        "random": "cpp",
+        "iomanip": "cpp",
+        "numbers": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "C_Cpp.default.compilerPath": "C:\\mingw64\\bin\\g++.exe"
